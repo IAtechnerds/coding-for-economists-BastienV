@@ -1,0 +1,22 @@
+*for this exercise, I used a sentence to create basic Python functions*
+
+sample_sentence = 'We are going to study death penalty in the US'
+sample_sentence[0:21]
+sample_sentence[10]
+sample_sentence.split()
+len(sample_sentence)
+sample_sentence.upper()
+
+*To try loops with Python, I used three words refering to race of murderers*
+
+words = ["Black", "White", "Latinx"]
+
+for word in words:
+    if word == "Black":
+        print("This word refers to people who are in minority condemned to death penalty.")
+    elif word == "White":
+        print("This word refers to people who are mostly condemned to death penalty.")
+    elif word == "Latinx":
+        print("This word refers to people who are in minority condemned to death penalty.")
+    else:
+        print("No one is condemned.")
